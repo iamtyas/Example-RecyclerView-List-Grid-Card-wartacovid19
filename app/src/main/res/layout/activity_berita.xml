@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BeritaActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/list_height"
+            android:scaleType="centerCrop"
+            android:id="@+id/iv_img"
+            android:src="@drawable/img1"/>
+        <TextView
+            style="@style/Text.Judul"
+            android:id="@+id/tv_judul"
+            android:text="@string/value_judul_berita"
+            android:padding="@dimen/padding_grid"/>
+        <TextView
+            style="@style/Text.Src"
+            android:id="@+id/tv_src"
+            android:text="@string/value_src"
+            android:padding="@dimen/padding_grid"/>
+        <TextView
+            style="@style/Text.Summary"
+            android:id="@+id/tv_ringkasan"
+            android:text="@string/value_summary"
+            android:padding="@dimen/padding_grid"/>
+    </LinearLayout>
+
+</ScrollView>

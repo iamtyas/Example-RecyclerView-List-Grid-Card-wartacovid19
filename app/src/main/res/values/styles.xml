@@ -1,0 +1,42 @@
+<resources>
+    <style name="AppThemes" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Text" parent="@style/TextAppearance.AppCompat">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/text_margin</item>
+    </style>
+    <style name="Text.Judul">
+        <item name="android:textSize">@dimen/text_judul</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorText</item>
+    </style>
+    <style name="Text.Src">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/text_src</item>
+        <item name="android:textColor">@color/colorGray</item>
+    </style>
+    <style name="Text.Summary">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/text_summary</item>
+        <item name="android:textColor">@color/colorSummary</item>
+    </style>
+
+    <style name="ImgList" parent="@style/TextAppearance.AppCompat">
+        <item name="android:layout_width">@dimen/layout_imglist</item>
+        <item name="android:layout_height">@dimen/layout_imglist</item>
+        <item name="android:layout_marginEnd">@dimen/layout_margin</item>
+        <item name="android:layout_marginRight">@dimen/layout_margin</item>
+    </style>
+
+    <style name="ImgGrid" parent="TextAppearance.AppCompat">
+        <item name="android:layout_width">@dimen/img_grid</item>
+        <item name="android:layout_height">@dimen/img_grid</item>
+        <item name="android:layout_margin">@dimen/img_margin</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+</resources>

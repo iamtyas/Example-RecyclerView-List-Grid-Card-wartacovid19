@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="@dimen/padding_list">
+
+    <ImageView
+        android:id="@+id/img_item_photo"
+        style="@style/ImgList"
+        tools:src="@android:color/darker_gray" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_toEndOf="@id/img_item_photo"
+        android:layout_toRightOf="@id/img_item_photo"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_item_name"
+            style="@style/Text.Judul"
+            android:layout_marginBottom="@dimen/text_margin"
+            tools:text="@string/judul_berita" />
+
+        <TextView
+            android:id="@+id/tv_item_detail"
+            style="@style/Text.Summary"
+            android:maxLines="2"
+            tools:text="@string/summary" />
+
+        <TextView
+            android:id="@+id/tv_item_src"
+            style="@style/Text.Src"
+            android:ellipsize="end"
+            android:textAlignment="textEnd"
+            tools:text="@string/src" />
+    </LinearLayout>
+</RelativeLayout>

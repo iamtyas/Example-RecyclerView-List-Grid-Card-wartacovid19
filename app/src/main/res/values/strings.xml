@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Berita COVID-19</string>
+    <string name="judul_berita">Judul Berita</string>
+    <string name="summary">Ringkasan</string>
+    <string name="src">Source</string>
+    <string name="list">List Berita</string>
+    <string name="list_cardview">CardView Berita</string>
+    <string name="grid">Grid Galeri</string>
+    <string name="grid_cardview">CardView Galeri</string>
+    <string name="value_judul_berita">Peta Sebaran Corona di 5 Wilayah Jabar yang Diusulkan PSBB</string>
+    <string name="value_src">detik.com</string>
+    <string name="value_summary">Pemprov Jabar mengajukan lima daerah untuk penerapan PSBB. Lima darah tersebut yakni Kota dan Kabupaten Bekasi,
+        Kota dan Kabupaten Bogor, serta Kota Depok.</string>
+</resources>

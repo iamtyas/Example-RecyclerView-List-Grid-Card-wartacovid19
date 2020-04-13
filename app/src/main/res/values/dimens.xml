@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="layout_margin">17dp</dimen>
+    <dimen name="cardview_radius">7dp</dimen>
+    <dimen name="cardview_margin">7dp</dimen>
+    <dimen name="cardview_list_img">100dp</dimen>
+    <dimen name="list_height">230dp</dimen>
+    <dimen name="text_margin">3dp</dimen>
+    <dimen name="text_judul">19sp</dimen>
+    <dimen name="text_src">8sp</dimen>
+    <dimen name="text_summary">12dp</dimen>
+    <dimen name="padding_list">13dp</dimen>
+    <dimen name="padding_grid">7dp</dimen>
+    <dimen name="layout_imglist">75dp</dimen>
+    <dimen name="img_grid">200dp</dimen>
+    <dimen name="img_margin">1dp</dimen>
+</resources>
